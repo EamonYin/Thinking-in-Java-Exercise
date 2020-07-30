@@ -1,4 +1,4 @@
-package Chapter10.Test7;
+package Chapter10.Test12;
 
 /**
  * @author:YiMing
@@ -8,7 +8,6 @@ package Chapter10.Test7;
 public class Test7 {
     public static void main(String[] args) {
         Outer outer = new Outer();
-        for(int i = 0 ; i < 10 ; i++)
-        outer.getInner();
+        outer.h();
     }
 }
