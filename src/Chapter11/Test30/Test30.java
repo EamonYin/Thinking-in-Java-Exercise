@@ -1,17 +1,17 @@
 package Chapter11.Test30;
 
-import typeinfo.pets.*;
+import typeinfo.pets.Pet;
+import typeinfo.pets.Pets;
 
 import java.util.Collection;
 import java.util.Iterator;
 
 /**
  * @author:YiMing
- * @create:2020/8/8,18:40
+ * @create:2020/8/8,19:08
  * @version:1.0
  */
-public class Test30 implements Collection {
-
+public class Test30 implements Collection<Pet> {
     private Pet[] pets = Pets.createArray(8);
 
     @Override
