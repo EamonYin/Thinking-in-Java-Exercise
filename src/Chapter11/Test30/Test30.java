@@ -19,7 +19,6 @@ public class Test30 implements Collection<Pet> {
         return pets.length;
     }
 
-
     @Override
     public Iterator<Pet> iterator() {
         return new Iterator<Pet>() {
@@ -90,7 +89,6 @@ public class Test30 implements Collection<Pet> {
     public Object[] toArray() {
         return pets;
     }
-
 
     @Override
     public Object[] toArray(Object[] a) {
