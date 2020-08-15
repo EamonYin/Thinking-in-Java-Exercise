@@ -6,7 +6,7 @@ package Chapter12.Test29;
  * @version:1.0
  */
 public class StormyInning extends Inning implements Storm{
-    StormyInning() {}
+    StormyInning() { }
     StormyInning(String s) {}
     public void rainHard() {}
     void atBat() { throw new PopFoul(); }
