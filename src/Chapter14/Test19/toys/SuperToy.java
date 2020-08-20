@@ -22,6 +22,6 @@ public class SuperToy extends FancyToy {
     }
 
     public String toString() {
-        return "I'm a SuperToy. I'm smarter than you.";
+        return "【SuperToy】创建成功";
     }
 }
