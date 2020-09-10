@@ -3,6 +3,7 @@ package Chapter18.Test21;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 
 /**
  * @author:YiMing
@@ -15,5 +16,6 @@ public class Test21 {
         String s;
         while ((s = stdin.readLine()) != null && s.length() != 0)
             System.out.println(s.toUpperCase());
+
     }
 }
