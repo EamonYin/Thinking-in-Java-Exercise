@@ -1,7 +1,7 @@
 package Chapter20.Example01;
 
 
-import Chapter20.atunit.Test;
+import org.junit.Test;
 
 public class Testable {
     public void execute() {
