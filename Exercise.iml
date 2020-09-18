@@ -10,15 +10,6 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://F:/net.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
           <root url="jar://E:/typeinfo-pets.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -39,6 +30,15 @@
       <library>
         <CLASSES>
           <root url="jar://E:/javassist.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/net.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
