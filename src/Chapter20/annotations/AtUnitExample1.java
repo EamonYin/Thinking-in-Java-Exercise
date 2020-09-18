@@ -1,7 +1,7 @@
 //: annotations/AtUnitExample1.java
 package Chapter20.annotations;
 import net.mindview.util.*;
-import org.junit.Test;
+import net.mindview.atunit.*;
 
 public class AtUnitExample1 {
   public String methodOne() {

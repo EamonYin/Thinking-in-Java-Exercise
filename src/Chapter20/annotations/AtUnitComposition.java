@@ -2,7 +2,7 @@
 // Creating non-embedded tests.
 package Chapter20.annotations;
 import net.mindview.util.*;
-import org.junit.Test;
+import net.mindview.atunit.*;
 
 public class AtUnitComposition {
   AtUnitExample1 testObject = new AtUnitExample1();

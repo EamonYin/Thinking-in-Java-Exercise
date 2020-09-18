@@ -1,7 +1,8 @@
 //: annotations/AtUnitExample4.java
 package Chapter20.annotations;
 import java.util.*;
-import Chapter20.atunit.*;
+
+import net.mindview.atunit.*;
 import net.mindview.util.*;
 import static net.mindview.util.Print.*;
 
@@ -23,7 +24,8 @@ public class AtUnitExample4 {
       result.append(ch);
     return result.toString();
   }
-  @TestProperty static List<String> input =
+  @TestProperty
+  static List<String> input =
     Arrays.asList(theory.split(" "));
   @TestProperty
     static Iterator<String> words = input.iterator();

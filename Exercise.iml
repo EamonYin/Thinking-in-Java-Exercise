@@ -38,7 +38,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://E:/net.jar!/" />
+          <root url="jar://F:/net.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

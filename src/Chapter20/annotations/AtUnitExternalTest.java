@@ -1,7 +1,7 @@
 //: annotations/AtUnitExternalTest.java
 // Creating non-embedded tests.
 package Chapter20.annotations;
-import org.junit.Test;
+import net.mindview.atunit.*;
 import net.mindview.util.*;
 
 public class AtUnitExternalTest extends AtUnitExample1 {

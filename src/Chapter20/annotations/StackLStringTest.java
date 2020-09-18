@@ -1,7 +1,7 @@
 //: annotations/StackLStringTest.java
 // Applying @Unit to generics.
 package Chapter20.annotations;
-import org.junit.Test;
+import net.mindview.atunit.*;
 import net.mindview.util.*;
 
 public class StackLStringTest extends StackL<String> {

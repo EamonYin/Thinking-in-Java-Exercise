@@ -1,7 +1,7 @@
 //: annotations/HashSetTest.java
 package Chapter20.annotations;
 import java.util.*;
-import org.junit.Test;
+import net.mindview.atunit.*;
 import net.mindview.util.*;
 
 public class HashSetTest {

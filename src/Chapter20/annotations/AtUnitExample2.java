@@ -3,7 +3,7 @@
 package Chapter20.annotations;
 import java.io.*;
 import net.mindview.util.*;
-import org.junit.Test;
+import net.mindview.atunit.*;
 
 public class AtUnitExample2 {
   public String methodOne() {

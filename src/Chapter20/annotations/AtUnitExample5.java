@@ -1,7 +1,7 @@
 //: annotations/AtUnitExample5.java
 package Chapter20.annotations;
 import java.io.*;
-import Chapter20.atunit.*;
+import net.mindview.atunit.*;
 import net.mindview.util.*;
 
 public class AtUnitExample5 {

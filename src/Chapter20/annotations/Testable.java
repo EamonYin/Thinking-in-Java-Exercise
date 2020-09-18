@@ -1,6 +1,6 @@
 //: annotations/Testable.java
 package Chapter20.annotations;
-import org.junit.Test;
+import net.mindview.atunit.*;
 
 public class Testable {
   public void execute() {
