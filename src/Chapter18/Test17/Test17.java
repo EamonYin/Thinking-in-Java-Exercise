@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 public class Test17 {
     public static void main(String[] args) {
         HashMap<Character, Integer> map = new HashMap<>();
-        ArrayList<String> strings = new TextFile("./src/Chapter18/Test17/C18T17测试文件.txt", "\\W");
+        ArrayList<String> strings = new TextFile("./src/Chapter18/Chapter21.Test17.Chapter21.Test17/C18T17测试文件.txt", "\\W");
         System.out.println(strings);
         Iterator<String> iterator = strings.iterator();
         String s;

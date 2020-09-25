@@ -14,7 +14,7 @@ import java.util.*;
 public class Test19 {
     public static void main(String[] args) throws IOException {
         Map<Byte, Integer> bytesStat = new HashMap<Byte, Integer>();
-        for (Byte bt : BinaryFile.read(new File("./src/Chapter18/Test17/C18T17测试文件.txt"))) {
+        for (Byte bt : BinaryFile.read(new File("./src/Chapter18/Chapter21.Test17.Chapter21.Test17/C18T17测试文件.txt"))) {
             Integer freq = bytesStat.get(bt);
             bytesStat.put(bt, freq == null ? 1 : freq + 1);
         }

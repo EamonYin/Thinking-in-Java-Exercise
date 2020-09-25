@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
  */
 public class Test17 {
     public static void main(String[] args) {
-        String path = "G:\\Java编程思想的一些练习\\Exercise\\src\\Chapter13\\Test17\\Test17.java";
+        String path = "G:\\Java编程思想的一些练习\\Exercise\\src\\Chapter13\\Chapter21.Test17.Chapter21.Test17\\Chapter21.Test17.Chapter21.Test17.java";
 
         Matcher matcher = Pattern.compile("(/\\*(.*)\\*/)|(.*(//.*$))", Pattern.DOTALL | Pattern.MULTILINE).matcher("");
         //for循环
